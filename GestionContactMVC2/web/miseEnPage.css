@@ -1,0 +1,177 @@
+body
+{
+    background : #FFFFD1;
+    color : #884400;
+    font-family : calibri;
+}
+legend
+{
+    font-size : 1.5em;
+}
+
+fieldset
+{
+    background : #EEEEC0;
+    margin : 2em;
+    padding : 1em;
+}
+
+div
+{
+    margin : 0.5em;
+}
+
+.divTexte
+{
+    width : 20em;
+    float : left;
+}
+
+.divTexteCompl
+{
+    width : 30em;
+}
+
+#envoyer
+{
+    margin : 2em;
+    text-align : left;
+}
+#message
+{
+    margin : 2em;
+}
+
+#contenu {
+    width:800px;
+    height:400px;
+    margin: auto;
+    padding: 20px;
+    font-size: 14px;
+    text-align: justify;
+    background: white;    
+}
+
+table {
+    font: 75%/1.5em arial, geneva, sans-serif;
+    border-collapse: collapse;
+}
+
+caption {
+    margin: 0;
+    border-bottom: 4px solid #fff;
+    padding: 10px;
+    background: black;
+    text-align: center;
+    font: bold 250%/1em arial, geneva, sans-serif;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    width: auto;
+}	
+
+tbody {
+    background: #acc;
+}
+tbody td {
+    font-size: 100%;
+    letter-spacing: 0.05em;
+}
+tbody td, th {
+    border-bottom: 4px solid #fff;
+    border-left: 1px dotted #fff;
+    vertical-align: top;
+    padding: 10px;
+}
+
+thead tr th { 
+    padding: 5px 10px;
+    text-align: center;
+    background: black; 
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-size: 110%
+}
+
+tbody th { 
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    font-size: 110%;
+    color: black;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}	
+
+
+tbody tr.odd th {
+    background: #E6E0C0; 
+}
+tbody tr.odd {
+    background: #E6E0C0; 
+}
+
+tbody tr th {
+    background: #b6e5ff; 
+}
+tbody tr {
+    background: #b6e5ff; 
+}
+
+/* footer */
+
+tfoot th, tfoot td {
+    margin: 0;
+    border-top: 2px solid #fff;
+    padding: 5px 10px;
+    text-align: left;
+    background: #F8F12A; /* yellow */
+    color: #000;
+}
+
+tfoot th {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border: none;
+}
+
+tfoot td {
+    padding-left: 10px;
+}
+
+/* links */	
+
+tbody tr th a { /* blue */
+    color: #277ffe;
+    display: block;
+}
+
+tbody tr.odd th a { /* beige */
+    color: #555;
+    display: block;
+}	
+
+tbody td a {
+    color: #DF3985;
+}
+
+a:visited, tbody tr.odd th a:visited {
+    color: #999;
+}
+.modifContact{
+    width : 135px;
+    display: inline-block;
+    vertical-align: auto;
+    resize: none;
+    text-align: right;
+}
+.creerContact{
+    width : 135px;
+    display: inline-block;
+    vertical-align: auto;
+    resize: none;
+    text-align: right;
+}
