@@ -18,6 +18,7 @@ public class TraitementAccueil
     private static Vector<Contact> listeContact;
     private static Contact contact;
     private static String messageContact;
+    private static String retour;
 
     public static String traitementListe(HttpSession session, AccesBase accesBase)
     {
@@ -84,6 +85,7 @@ public class TraitementAccueil
 
         Vector<Secteur> listeSecteur;
         SecteurDAO secteurDAO;
+        
 
         try
         {
@@ -92,6 +94,7 @@ public class TraitementAccueil
             contactDAO = new ContactDAO(accesBase);
             contact = new Contact();
             secteurDAO = new SecteurDAO(accesBase);
+            
 
             try
             {
@@ -102,7 +105,7 @@ public class TraitementAccueil
                 {
                     messageContact = "Contact inconnu";
                     session.setAttribute("messageContact", messageContact);
-                    return "/jspAccueil.jsp";
+                    retour = "/jspAccueil.jsp";
                 }
                 else
                 {
@@ -110,7 +113,7 @@ public class TraitementAccueil
 
                     session.setAttribute("listeSecteur", listeSecteur);
                     session.setAttribute("contact", contact);
-                    return "/jspModif.jsp";
+                    retour = "/jspModif.jsp";
                 }
 
             } catch (SQLException e)
@@ -127,7 +130,7 @@ public class TraitementAccueil
             System.out.println(e.getMessage());
         }
 
-        return "/jspModif.jsp";
+        return retour;
     }
 
     public static String traitementSupr(HttpSession session, AccesBase accesBase, Integer numeroContact)
