@@ -2,10 +2,9 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="CDI/TPJEE/04_ServletJsp"/>
         <group>
-            <file>file:/U:/JAVA/TPJEE/ContactDistantRMI/src/Serveur/ContactDistantServeur.java</file>
-            <file>file:/U:/JAVA/TPJEE/ContactDistantRMI/src/contactdistantrmi/ContactDistantImpl.java</file>
-            <file>file:/U:/JAVA/TPJEE/ContactDistantRMI/src/contactdistantrmi/ContactDistant.java</file>
+            <file>file:/U:/JAVA/TPJEE/020_GestionContactMVC2ServeurObjets/src/java/gestionContact/TraitementAccueil.java</file>
         </group>
     </open-files>
 </project-private>
